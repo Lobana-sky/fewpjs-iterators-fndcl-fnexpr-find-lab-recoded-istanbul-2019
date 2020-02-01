@@ -9,10 +9,7 @@ const record = [
   {year: "2016", result: "N/A"} ]
 function superbowlWin(record)
 {
-  for(let i=0;i<record.length;i++)
-  {
-    record[i].find(function(result){
-      return (result==="W");
-    });
+    record.find(function(result){
+      return (record.result==="W");
   }
 }
