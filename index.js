@@ -11,5 +11,5 @@ function superbowlWin(record)
 {
   let res=record.find(function(rec){return (rec.result == "W")});
     console.log(res.year);
-    return res.year;
+    
 }
