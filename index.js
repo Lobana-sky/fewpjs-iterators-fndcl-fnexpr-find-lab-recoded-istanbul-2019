@@ -10,4 +10,5 @@ const record = [
 function superbowlWin(record)
 {
     record.find(function(rec){return (rec.result==="W")});
+    return rec.year;
 }
