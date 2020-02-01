@@ -11,6 +11,8 @@ function superbowlWin(record)
 {
   for(let i=0;i<record.length;i++)
   {
-    
+    record[i].find(function(){
+      
+    });
   }
 }
