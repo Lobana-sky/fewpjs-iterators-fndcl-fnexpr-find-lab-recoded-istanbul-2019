@@ -10,6 +10,6 @@ const record = [
 function superbowlWin(record)
 {
     record.find(function(result){
-      return (record.result==="W");
-  }
+      return (record.result==="W")});
+  
 }
